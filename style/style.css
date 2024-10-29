@@ -244,7 +244,7 @@ body {
     margin: 0 auto;
 }
 
-/*----------Первый столбец-----------------------------------------------*/
+/*----------Первая строка-----------------------------------------------*/
 
 .feed-card-container {
     background-color: var(--white-color);
@@ -362,3 +362,83 @@ body {
 }
 
 /* footer -------------------------------------------------------- */
+.footer-background-color {
+    background-color: var(--dark-gray-color);
+}
+.footer-wrapper {    
+    height: 300px;
+}
+
+.footer-hight-container {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-line-text {    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 380px;
+}
+
+.social-link {
+    width: 160px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-text-wrapper {
+    height: 32px;
+    max-width: 250px;
+    border-left: 1px solid var(--white-color);
+    border-color: var(--white-color);
+}
+
+.footer-text-stile {
+    margin-left: 40px;
+    font-family: "Roboto";
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--white-color);
+}
+
+.footer-link {
+    height: 130px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--white-color);
+}
+
+.footer-list {
+    height: 24px;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-list-element {
+    font-family: "Roboto";
+    font-size: 16px;
+    color: var(--white-color);
+}
+
+.footer-information {
+    margin-top: 20px;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white-color);    
+    font-size: 12px;    
+}
+
+
+
+
+
+
